@@ -1,0 +1,323 @@
+header {
+    background-color: white;
+    color: beige;
+  
+    padding: 1px;
+  
+    backdrop-filter:blur(10px);
+    display: flex;
+    box-shadow:20px;
+   
+}
+  
+
+
+    /* Navigation Bar */
+    .navbar {
+      background-color: #ffffff;
+      overflow: hidden;
+       padding: 60px 40px 30px 190px;
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    .logo { 
+   justify-items: left;
+   padding: 20px;
+  
+  
+}
+.navbar-menu {
+   padding: 0px 40px 30px 160px;
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    .navbar a {
+      float: left;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 0px 20px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+    /* Dropdown Container */
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;    
+      border: none;
+      outline: none;
+      color: rgb(0, 0, 0);
+      padding: 0px 20px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding:0px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+.container {
+    background-image: url(1.jpeg);
+    background-size: cover;
+    padding: 130px;
+}
+.class {
+    padding: 70px 70px 80px 350px;
+    color: aliceblue;
+    font-size: xx-large;
+}
+.button {
+    padding: 10px 40px 90px 330px;
+    }
+    button {
+        padding: 10PX 50PX 10PX 50PX;
+        background-color: transparent;
+        color: aliceblue;
+        border: 2px solid rgb(255, 255, 255);
+       
+    }
+     .contant {
+     width: 80%;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: left;
+    gap: 7em;
+    padding: 50px 12% 400px 12%;
+    justify-content: left;
+    font-size: large;
+    color:black;
+}
+.contant1 {
+   width: 80%;
+    height: 50vh;
+    justify-content: center;
+     margin:10px 0px 60px 40px;
+       background-color: rgb(255, 255, 255);
+         align-items: center;
+       position: absolute;
+       right: 0;
+
+}
+   .part1 {
+   
+ width: 30%;
+    height: 10vh;
+    background-color: rgb(126, 14, 57);
+    display: flex;
+    align-items: left;
+    gap: 7em;
+    padding: 50px 12% 400px 12%;
+    justify-content: left;
+    font-size: large;
+   
+   }
+   .contant2 {
+   width: 80%;
+    height: 50vh;
+    justify-content: center;
+     margin:10px 0px 60px 40px;
+       background-color: rgb(255, 255, 255);
+         align-items: center;
+       position: absolute;
+       right: 0;
+color: black;
+}
+.part2 {
+    background-color: rgb(105, 7, 40);
+}
+.image-row {
+    background-color: rgb(194, 194, 194);
+      display: flex;
+      flex-wrap: nowrap;       /* All images stay in one line (no wrapping) */
+      gap: 10px;                /* Gap between images */
+      overflow-x: auto;         /* Enables scrolling if content overflows */
+      padding: 30px;
+      justify-content: center;
+      
+    }
+
+    .image-row img {
+      width: 200px;             /* Adjust as needed */
+      height: auto;
+      flex-shrink: 0;           /* Prevent shrinking so all images maintain size */
+      border-radius: 20px;
+      
+
+    }
+    .text {
+      padding: 30px;
+      color: black;
+    }
+    .color {
+      color:  rgb(139, 10, 10);
+    }
+    .box5 {
+        display: inline-block;
+      width: 300px;
+      height: 460px;
+      border: 2px solid rgb(196, 196, 196);
+      margin: 10px;
+      background-color: rgb(196, 196, 196);
+      justify-content: center; /* horizontal centering */
+      align-items: center;     /* vertical centering */
+       margin: 10px;
+    }
+    .contain5 {
+        justify-content: center; /* horizontal centering */
+      align-items: center;     /* vertical centering */
+      padding: 0px 0px 0px 0px;
+      font-size: x-large;
+      color: aliceblue;
+    }
+      .footer {
+      background-color:  rgb(196, 196, 196);
+      padding: 50px;
+    }
+    .fa {
+      
+  padding: 20px;
+  font-size: 10px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: rgb(105, 7, 40);
+  color: white;
+  padding: 10px;
+}
+
+/* Twitter */
+.fa-twitter {
+   background: rgb(105, 7, 40);
+  color: white;
+  padding: 10px;
+}
+/* linkedin */
+.fa-linkedin {
+  background: rgb(105, 7, 40);
+  color: white;
+  padding: 10px;
+}
+
+/* Twitter */
+.fa-youtube {
+   background: rgb(105, 7, 40);
+   color: #ddd;
+  padding: 10px;
+}
+/* TikTok */
+.fa-TikTok {
+  background: #77084df3;
+  color: white;
+}
+input {
+  padding: 0px;
+  border: 2px solid  rgb(139, 10, 10);
+  height: 40px;
+  width: 150px;
+
+}
+footer {
+background-color: rgb(196, 186, 186);
+}
+.footer {
+  display:flex;
+    display: flex;
+      gap: 120px; /* gap between paragraphs */
+      padding: 0px 20px 0px 50px;
+  
+}
+.text-2 {
+  padding: 0px 80px 0px 150px;
+}
+.text-3 {
+  margin: 0px 80px 20px 250px;
+ 
+}
+u {
+       text-decoration: underline;
+      text-decoration-color: rgb(139, 10, 10);
+    }
+     .paragraph-row {
+       display: flex;
+      gap: 400px; /* This is the gap between the headings */
+      justify-content: right; /* optional: center them */
+    }
+
+    .paragraph-row p {
+      margin: 0; /* remove default paragraph margin */
+      padding: 20px;
+    }
+    .paragraph-row2 {
+      display: flex;
+      gap: 120px; /* gap between paragraphs */
+    }
+
+    .paragraph-row h3 {
+      margin: 0; /* remove default paragraph margin */
+      padding: 60px;
+    }
+    .paragraph-row {
+      display: flex;
+      gap: 40px; /* gap between paragraphs */
+    }
+     button:link, button:visited {
+  background-color:transparent;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover, button:active {
+  background-color: rgb(163, 39, 39);
+}
+h1{
+    font-size: 40px;
+}
